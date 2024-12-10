@@ -113,7 +113,7 @@ let routes = createBrowserRouter([
           </ProtectRoutes>
         ),
       },
- 
+      { path: "*", element: <Notfound /> },
       { path: "register", element: <Register /> },
       { path: "login", element: <Login /> },
     ],
