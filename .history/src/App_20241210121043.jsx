@@ -129,7 +129,7 @@ function App() {
             <WisListContextProvider>
               <DarkMOdeProvider>
        
-            <RouterProvider router={routes} basename='/freshcart4' ></RouterProvider>
+            <RouterProvider router={routes} base ></RouterProvider>
 
             <div>
               <Offline>
