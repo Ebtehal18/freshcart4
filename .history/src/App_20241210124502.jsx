@@ -129,12 +129,12 @@ function App() {
             <WisListContextProvider>
               <DarkMOdeProvider>
        
-            <RouterProvider router={routes} ></RouterProvider>
+            <RouterProvider router={routes} basename='/freshcart4' ></RouterProvider>
 
             <div>
               <Offline>
                 <span className='fixed bottom-0 start-2 bg-red-500 text-white px-5 py-3 rounded-md shadow-lg'>
-                  Your internet connection is slow or lost
+                  Your internet connection is slow or lost.
                 </span>
               </Offline>
             </div>

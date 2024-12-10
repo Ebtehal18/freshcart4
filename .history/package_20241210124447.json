@@ -2,7 +2,7 @@
   "name": "ecommerce",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://username.github.io/freshcart4/",
+  "homepage": "https://username.github.io/freshcart4/"
   "type": "module",
   "scripts": {
     "dev": "vite",
